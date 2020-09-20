@@ -1,0 +1,10 @@
+{
+  "main": "build/index.js",
+  "scripts": {
+    "start": "live-server --port=5000",
+    "build": "rm -r -f build/ && tsc -w"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
