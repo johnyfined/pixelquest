@@ -1,10 +1,15 @@
 {
   "main": "build/index.js",
+  "type": "module",
   "scripts": {
     "start": "live-server --port=5000",
     "build": "rm -r -f build/ && tsc -w"
   },
   "devDependencies": {
     "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/socket.io": "^2.1.11",
+    "socket.io": "^2.3.0"
   }
 }
