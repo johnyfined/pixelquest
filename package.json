@@ -1,0 +1,30 @@
+{
+  "name": "pixelquest",
+  "version": "1.0.0",
+  "description": "socket.io와 canvas를 이용한 간단한(?) 게임을 제작.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server front --port=8000",
+    "dev": "nodemon --exec ts-node server/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnyworld/pixelquest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnyworld/pixelquest/issues"
+  },
+  "homepage": "https://github.com/Johnyworld/pixelquest#readme",
+  "dependencies": {
+    "@types/node": "^14.11.1",
+    "@types/socket.io": "^2.1.11",
+    "socket.io": "^2.3.0",
+    "ts-node": "^9.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  }
+}
